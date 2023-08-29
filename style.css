@@ -1,0 +1,104 @@
+.calculator{
+    height: 800px;
+    width: 420px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+}
+.btn{
+    position: relative;
+    left: 10px;
+    border: 0px;
+}
+.result{
+    width:380px;
+    height: 200px;
+    display: grid;
+    justify-items: end;
+     align-items: end;
+     margin-top: 38px;
+     margin-right: 40px;
+}
+.res{
+    width: 380px;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: flex-end;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 290px;
+    height: 100px;
+}
+.button{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: rgb(173, 173, 173);
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.buttons :active{
+    filter: brightness(130%);
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 290px;
+    height: 400px;  
+}
+.number{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.numbers :active{
+    filter: brightness(130%);
+}
+.numberSpec{
+    width: 190px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.operations{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 495px;
+    left: 300px;
+    bottom: 500px;
+    justify-content: space-between;
+}
+.operations :active{
+    filter: brightness(130%);
+}
+.operation{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: rgb(245, 162, 37);
+    color: white;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
